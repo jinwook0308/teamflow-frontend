@@ -1,0 +1,35 @@
+# common
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+target/
+out/
+.idea/
+.vscode/
+*.log
+~$*.docx
+~$*.hwp
+
+# backend
+/backend/build/
+/backend/target/
+/backend/.gradle/
+
+# frontend
+/frontend/node_modules/
+/frontend/dist/
+
+# uploads
+/uploads/
+/backend/uploads/
+
+# docker
+*.pid
+
+# secrets
+application-prod.yml
+application-secret.yml
